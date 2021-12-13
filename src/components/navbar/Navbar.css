@@ -1,0 +1,32 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Navbar-Inner{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-Links li{
+    display: inline;
+    list-style: none;
+}
+
+.Nav-Links a{
+    padding: 1rem;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.Logo img{
+    height: 40px;
+    width: auto;
+}
