@@ -13,9 +13,7 @@ export default (props) => {
         <>
             <Navbar />
             <Presentation />
-            <div className="Content-Inner">
-                <Projects />
-            </div>
+            <Projects />
             <Footer />
         </>
     );
