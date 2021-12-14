@@ -6,14 +6,12 @@ import './Card.css';
 export default (props) => {
     return (
         <div className="Card">
-            <div className="Card-Head">
-                {props.head}
-            </div>
+            <div style={{backgroundImage: `url(${props.image})`}} className="Card-Image"></div>
+            <h3 className="Card-Head">
+                {props.title}
+            </h3>
             <div className="Card-Body">
-                {props.body}
-            </div>
-            <div className="Card-Footer">
-                {props.footer}
+                {props.children}
             </div>
         </div>
     );

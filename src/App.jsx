@@ -12,7 +12,9 @@ export default (props) => {
         <>
             <Navbar />
             <Presentation />
-            <Projects />
+            <div className="Content-Inner">
+                <Projects />
+            </div>
         </>
     );
 }

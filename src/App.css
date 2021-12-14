@@ -9,3 +9,8 @@
 body{
   background: #161616;
 }
+
+.Content-Inner{
+  width: 60%;
+  margin: 0 auto;
+}
