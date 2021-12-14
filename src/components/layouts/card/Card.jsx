@@ -7,9 +7,9 @@ export default (props) => {
     return (
         <div className="Card">
             <div style={{backgroundImage: `url(${props.image})`}} className="Card-Image"></div>
-            <h3 className="Card-Head">
+            <p className="Card-Head">
                 {props.title}
-            </h3>
+            </p>
             <div className="Card-Body">
                 {props.children}
             </div>
