@@ -5,6 +5,7 @@
     justify-content: center;
     width: 100%;
     padding: 1rem;
+    margin-bottom: 4rem;
 }
 
 .Navbar-Inner{
@@ -29,4 +30,10 @@
 .Logo img{
     height: 40px;
     width: auto;
+}
+
+.Active{
+    color: #4F2085 !important;
+    font-weight: bold;
+    border-bottom: #4F2085 solid 2px;
 }

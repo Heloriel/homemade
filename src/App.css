@@ -7,11 +7,22 @@
 }
 
 body{
-  background: #181818;
+  background: #0E1624;
   height: 100vh;
 }
 
 .Content-Inner{
   width: 60%;
   margin: 0 auto;
+  text-align: center;
+}
+
+.Separator{
+  border: 1px solid rgb(60, 60, 60);
+  margin: 3rem 0;
+}
+
+.Section-Title{
+  color: #fff;
+  font-size: 2rem;
 }

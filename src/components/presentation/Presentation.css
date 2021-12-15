@@ -1,11 +1,27 @@
-.container{
+.Container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 600px;
     width: 100%;
+    overflow: hidden;
 }
 
-.container img{
+.Right{
     width: 50%;
+    display: flex;
+    justify-content: start;
+    height: 100%;
+}
+
+.Presentation-Image{
+    height: 100%;
+}
+
+.Left{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
 }

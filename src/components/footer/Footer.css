@@ -1,6 +1,6 @@
 footer{
     color: #fff;
-    background-color: rgb(40,40,40);
+    background-color: #0b1320;
     width: 100%;
     height: 100px;
     padding: 1rem;
@@ -13,6 +13,13 @@ footer .row{
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: row;
+}
+
+.first{
+    width: 33.33%;
+    display: flex;
+    justify-content: start;
 }
 
 .first img{
@@ -20,15 +27,28 @@ footer .row{
     height: auto;
 }
 
-.Social-Block {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    overflow: hidden;
+.middle{
+    width: 33.33%;
     display: flex;
     justify-content: center;
+}
+
+.last{
+    width: 33.33%;
+    display: flex;
+    justify-content: end;
+}
+
+.Social-Block {
+    width: 49px;
+    height: 49px;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    background: rgb(40,40,40);
+    background: rgb(50,50,50);
+    margin: 5px;
 }
 
 .Social-Block::before{
@@ -43,12 +63,17 @@ footer .row{
     animation: rotate 2s linear infinite;
 }
 
-.Social-Block .Inner{
+.Inner{
     width: 45px;
     height: 45px;
-    background: red;
-    color: #4F2085;
+    background: #0b1320;
+    color: #fff;
     font-size: larger;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes rotate {
