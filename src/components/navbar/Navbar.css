@@ -1,6 +1,7 @@
 .Navbar{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -8,12 +9,13 @@
     margin-bottom: 4rem;
 }
 
-.Navbar-Inner{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.Logo img{
+    height: 40px;
+    width: auto;
+}
+
+.Nav-Links{
+    text-align: end;
 }
 
 .Nav-Links li{
@@ -25,11 +27,6 @@
     padding: 1rem;
     color: #fff;
     margin-left: 10px;
-}
-
-.Logo img{
-    height: 40px;
-    width: auto;
 }
 
 .Active{

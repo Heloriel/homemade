@@ -10,15 +10,20 @@ import Footer from "./components/footer/Footer.jsx";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
     return (
-        <>
-            <Navbar />
-            <Presentation />
-            <div className="Content-Inner">
-                <hr className="Separator" />
-                <span className="Section-Title"><i>#Projetos</i></span>
-            </div>
-            <Projects />
-            <Footer />
-        </>
+        <div className="Content">
+            <section className="row m-0">
+                <Navbar />
+            </section>
+            <section className="row">
+                <Presentation />
+            </section>
+            <hr className="Separator" />
+            <section className="row">
+                <Projects />
+            </section>
+            <section className="row me-0">
+                <Footer />
+            </section>
+        </div>
     );
 }

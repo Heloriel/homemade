@@ -8,21 +8,65 @@
 
 body{
   background: #0E1624;
-  height: 100vh;
 }
 
-.Content-Inner{
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
+.Content{
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .Separator{
   border: 1px solid rgb(60, 60, 60);
-  margin: 3rem 0;
+  margin: 3rem auto;
+  width: 50%;
 }
 
-.Section-Title{
-  color: #fff;
-  font-size: 2rem;
+.m-0{
+  margin: 0px !important;
+}
+
+.me-0{
+  margin-bottom: 0px !important;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 }

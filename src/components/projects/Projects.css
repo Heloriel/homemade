@@ -1,8 +1,14 @@
 .Project-List{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     margin-bottom: 2rem;
 }
+
+.Title{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+  }
