@@ -12,7 +12,7 @@ export default (props) => {
     return (
         <div className="Content">
             <section className="row m-0">
-                <Navbar />
+                <Navbar className={"d-sm-none"} />
             </section>
             <section className="row">
                 <Presentation />

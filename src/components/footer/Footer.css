@@ -54,7 +54,7 @@ footer .row{
 .Social-Block::before{
     content: "";
     background-image: conic-gradient(
-        #4F2085 20deg,
+        var(--accent-light) 20deg,
         transparent 120deg
     );
     width: 150%;
