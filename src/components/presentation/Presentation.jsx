@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import Presentation from '../../assets/img/Presentation.svg';
-import "../../App.css";
+import "../../App.scss";
 import './Presentation.css';
 
 export default (props) => {

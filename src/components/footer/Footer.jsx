@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import "../../App.css";
+import "../../App.scss";
 import "./Footer.css";
 import Logo from "../../assets/img/Logo.svg";
 import { FaLinkedinIn, FaDiscord } from "react-icons/fa";

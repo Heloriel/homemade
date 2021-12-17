@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import '../../App.css';
+import '../../App.scss';
 import './Projects.css';
 import Card from '../layouts/card/Card.jsx';
 import Data from '../../data/projects.js';
