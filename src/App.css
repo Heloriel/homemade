@@ -1,5 +1,4 @@
 *{
-
   --background: #0E1624;
   --accent-light: #5CCFEE;
   --accent-dark: #553181;
@@ -78,9 +77,4 @@ body{
     width: 100%;
     justify-content: center;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .d-sm-none{display: none !important;}    
 }
