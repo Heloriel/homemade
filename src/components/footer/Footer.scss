@@ -1,6 +1,8 @@
+@import "../../App.scss";
+
 footer{
     color: #fff;
-    background-color: #0b1320;
+    background-color: $background_secondary;
     width: 100%;
     height: 100px;
     padding: 1rem;
@@ -19,7 +21,7 @@ footer .row{
 .first{
     width: 33.33%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .first img{
@@ -36,7 +38,7 @@ footer .row{
 .last{
     width: 33.33%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .Social-Block {
@@ -54,7 +56,7 @@ footer .row{
 .Social-Block::before{
     content: "";
     background-image: conic-gradient(
-        var(--accent-light) 20deg,
+        $accent_light 20deg,
         transparent 120deg
     );
     width: 150%;
@@ -66,7 +68,7 @@ footer .row{
 .Inner{
     width: 45px;
     height: 45px;
-    background: #0b1320;
+    background: $background_secondary;
     color: #fff;
     font-size: larger;
     position: relative;

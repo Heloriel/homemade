@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import '../../App.scss';
-import "./Navbar.css";
+import "./Navbar.scss";
 import Logo from "../../assets/img/Logo.svg";
 import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -32,10 +32,10 @@ export default (props) => {
 				</ul>
 			</div>
 			<div className="col-3 p-0 Social-Links d-sm-none">
-				<a href="#"><FaLinkedin /></a>
-				<a href="#"><FaGithub /></a>
-				<a href="#"><FaDiscord /></a>
-				<a href="#"><SiGmail /></a>
+				<a href="/"><FaLinkedin /></a>
+				<a href="/"><FaGithub /></a>
+				<a href="/"><FaDiscord /></a>
+				<a href="/"><SiGmail /></a>
 			</div>
 			<div className="dm-sm-flex d-md-none Mobile-Nav">
 				<AiOutlineMenu />

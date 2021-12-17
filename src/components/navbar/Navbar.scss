@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .Navbar{
     display: flex;
     flex-direction: row;
@@ -16,7 +18,7 @@
 
 .Mobile-Nav{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: #fff;
     height: 100%;
     align-items: center;
@@ -53,7 +55,7 @@
 }
 
 .Active{
-    color: var(--accent-light) !important;
+    color: $accent_light !important;
     font-weight: bold;
-    border-bottom: var(--accent-light) solid 2px;
+    border-bottom: $accent_light solid 2px;
 }
