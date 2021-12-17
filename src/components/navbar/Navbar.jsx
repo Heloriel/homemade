@@ -5,14 +5,15 @@ import "./Navbar.css";
 import Logo from "../../assets/img/Logo.svg";
 import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default (props) => {
 	return (
-		<nav className={"Navbar " + props.className}>
-			<div className="col-3 Logo">
-				<img src={Logo} alt="" />
+		<nav className={"Navbar"}>
+			<div className="col-3 Logo-Container">
+				<img src={Logo} alt="" className="Logo" />
 			</div>
-			<div className="col-6 Nav-Links">
+			<div className="col-6 Nav-Links d-sm-none">
 				<ul>
 					<li>
 						<a href="#start" className="Active">
@@ -30,11 +31,14 @@ export default (props) => {
 					</li>
 				</ul>
 			</div>
-			<div className="col-3 p-0 Social-Links">
+			<div className="col-3 p-0 Social-Links d-sm-none">
 				<a href="#"><FaLinkedin /></a>
 				<a href="#"><FaGithub /></a>
 				<a href="#"><FaDiscord /></a>
 				<a href="#"><SiGmail /></a>
+			</div>
+			<div className="dm-sm-flex d-md-none Mobile-Nav">
+				<AiOutlineMenu />
 			</div>
 		</nav>
 	);

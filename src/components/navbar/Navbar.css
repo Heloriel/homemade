@@ -9,10 +9,18 @@
     margin-bottom: 4rem;
 }
 
-.Logo img{
+.Logo{
     height: 40px;
     width: auto;
-    padding-left: 2rem;
+}
+
+.Mobile-Nav{
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    height: 100%;
+    align-items: center;
+    font-size: 2rem;
 }
 
 .Nav-Links{
