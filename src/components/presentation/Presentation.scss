@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../../App.scss";
 
 @mixin LeftRight {
@@ -39,3 +40,46 @@
     }
 }
 
+=======
+@import "../../App.scss";
+
+@mixin LeftRight {
+    max-height: 500px;
+    min-height: 380px;
+    min-width: 360px;
+    max-width: 50%;
+}
+
+.Left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    @include LeftRight();
+    .Presentation-Text{
+        text-align: left;
+        min-width: 360px;
+        max-width: 50%;
+        padding: 1rem;
+        color: white;
+        .Slogan{
+            font-size: 4rem;
+            color: $accent_light;
+        }
+        .Subtext{
+            margin: 2rem 0;
+        }
+    }
+}
+
+.Right{
+    @include LeftRight();
+    display: flex;
+    justify-content: center;
+    .Presentation-Image{
+        height: 100%;
+    }
+}
+
+>>>>>>> 6c9b69b64c08a2359ec99042454e64d2c9f89cb2
