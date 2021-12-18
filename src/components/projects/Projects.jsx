@@ -10,7 +10,7 @@ export default (props) => {
     return (
         <div>
             <div className="row">
-                <p className="Title"><i>#Projetos</i></p>
+                <p className="Title"><i>#Projects</i></p>
             </div>
             <div className="row">
                 <Card title={Data[0].pName} image={Data[0].pImage}>

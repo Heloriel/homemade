@@ -21,7 +21,7 @@ export default (props) => {
             <section className="row">
                 <Projects />
             </section>
-            <section className="row me-0">
+            <section className="row m-0">
                 <Footer />
             </section>
         </div>

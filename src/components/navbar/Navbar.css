@@ -105,58 +105,95 @@ body {
   padding: 15px;
 }
 
-.Left {
+.Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+.Logo-Container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: left;
-  max-height: 500px;
-  min-height: 380px;
-  min-width: 360px;
-  max-width: 50%;
+  min-width: 165px;
 }
 
-.Left .Presentation-Text {
-  text-align: left;
-  min-width: 360px;
-  max-width: 50%;
-  padding: 1rem;
-  color: white;
+.Logo-Container .Logo {
+  height: 25px;
+  max-height: 25px;
+  width: auto;
 }
 
-.Left .Presentation-Text .Slogan {
-  font-size: 4rem;
-  color: #5CCFEE;
-}
-
-.Left .Presentation-Text .Subtext {
-  margin: 2rem 0;
-}
-
-.Right {
-  max-height: 500px;
-  min-height: 380px;
-  min-width: 360px;
-  max-width: 50%;
+.Mobile-Nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  min-width: 165px;
+  color: #fff;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
 }
 
-.Right .Presentation-Image {
-  height: 100%;
+.Nav-Links {
+  text-align: center;
 }
-/*# sourceMappingURL=Presentation.css.map */
+
+.Nav-Links li {
+  display: inline;
+  list-style: none;
+}
+
+.Nav-Links a {
+  padding: 1rem;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.Social-Links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Social-Links a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Active {
+  color: #5CCFEE !important;
+  font-weight: bold;
+  border-bottom: #5CCFEE solid 2px;
+}
+/*# sourceMappingURL=Navbar.css.map */

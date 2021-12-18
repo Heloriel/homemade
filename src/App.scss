@@ -45,10 +45,6 @@ body{
   margin: 0 !important;
 }
 
-.me-0{
-  margin-bottom: 0 !important;
-}
-
 .p-0{
   padding: 0 !important;
 }
@@ -69,46 +65,5 @@ body{
 [class*="col-"] {
   float: left;
   padding: 15px;
-  /* border: 1px solid red; */
-}
-
-@media only screen and (max-width: 1100px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .Navbar{
-    justify-content: space-between !important;
-  }
-
-  .Logo-Container{
-    width: 50%;
-    padding: 0 !important;
-  }
-
-  .Mobile-Nav{
-    width: 50%;
-  }
-
-}
-
-@media only screen and (max-width: 1100px) {
-  /* For mobile phones: */
-  .d-sm-none{display: none !important;}
-  .d-sm-block{display: block;}
-  .d-sm-inline-block{display: inline-block;}
-  .d-sm-inline{display: inline;}
-  .d-sm-flex{display: flex;}
-}
-
-@media only screen and (min-width: 1100px) {
-  /* For mobile phones: */
-  .d-md-none{display: none !important;}
-  .d-md-block{display: block;}
-  .d-md-inline-block{display: inline-block;}
-  .d-md-inline{display: inline;}
-  .d-md-flex{display: flex;}
+  // border: 1px solid red;
 }

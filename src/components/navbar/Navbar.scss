@@ -2,23 +2,27 @@
 
 .Navbar{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     padding: 1rem;
-    margin-bottom: 4rem;
 }
 
-.Logo{
-    height: 40px;
-    width: auto;
+.Logo-Container{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 165px;
+    .Logo{
+        height: 25px;
+        max-height: 25px;
+        width: auto;
+    }
 }
 
 .Mobile-Nav{
     display: flex;
     justify-content: flex-end;
+    min-width: 165px;
     color: #fff;
     height: 100%;
     align-items: center;
