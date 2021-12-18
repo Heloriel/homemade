@@ -11,13 +11,10 @@ export default (props) => {
 	return (
 		<footer>
 			<div className="row">
-				<div className="first">
+				<div className="First">
 					<img src={Logo} alt="Logo" />
 				</div>
-				<div className="middle">
-					<span className="eCopy">Scriplex Project &copy; 2021</span>
-				</div>
-				<div className="last">
+				<div className="Middle">
 					<a href="https://www.linkedin.com/in/matheus-andrade-ba2b16226/" rel="noreferrer" target="_blank" className="Social-Block">
 						<div className="Inner">
 							<FaLinkedinIn />
@@ -38,6 +35,9 @@ export default (props) => {
 							<SiGmail />
 						</div>
 					</a>
+				</div>
+				<div className="Last">
+					<span className="eCopy">Scriplex Project &copy; 2021</span>
 				</div>
 			</div>
 		</footer>

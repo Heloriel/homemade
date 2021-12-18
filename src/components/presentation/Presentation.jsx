@@ -2,17 +2,16 @@
 import React from "react";
 import Presentation from '../../assets/img/Presentation.svg';
 import "../../App.scss";
-import './Presentation.css';
+import './Presentation.scss';
 
 export default (props) => {
     return(
         <div className="row">
             <div className="col-6 Left">
                 <div className="Presentation-Text">
-                    <h1 className="Slogan">Bring it
-                    <br />next level!</h1>
-                    <h1>Welcome to my portfolio page!</h1>
-                    <p>Here i will show my works as a developer!</p>                    
+                    <h1 className="Slogan">BRING IT TO THE NEXT LEVEL!</h1>
+                    <h1 className="Subtext">Welcome to my portfolio page!</h1>
+                    <p className="Subtext">Here i will show my works as a developer!</p>                    
                 </div>
             </div>
             <div className="col-6 Right">
