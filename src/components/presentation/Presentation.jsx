@@ -11,7 +11,7 @@ export default (props) => {
                 <div className="Presentation-Text">
                     <h1 className="Slogan">BRING IT TO THE NEXT LEVEL!</h1>
                     <h1 className="Subtext">Welcome to my portfolio page!</h1>
-                    <p className="Subtext">Here i will show my works as a developer!</p>                    
+                    <p className="Subtext">Here i will show you some of my works as a developer!</p>                    
                 </div>
             </div>
             <div className="col-6 Right">
