@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 $background: #0E1624;
 $background_secondary: #18253a;
@@ -66,8 +67,81 @@ body{
   float: left;
   padding: 15px;
   // border: 1px solid red;
+=======
+
+$background: #0E1624;
+$background_secondary: #18253a;
+$accent_light: #5CCFEE;
+$accent_dark: #3b6dca;  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: $background;
+}
+
+.Content{
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Separator{
+  border: 1px solid rgb(60, 60, 60);
+  margin: 3rem auto;
+  width: 50%;
+}
+
+.m-0{
+  margin: 0 !important;
+}
+
+.p-0{
+  padding: 0 !important;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  // border: 1px solid red;
+<<<<<<< HEAD
 }
 
 .d-none{
   display: none !important;
+=======
+>>>>>>> 6c9b69b64c08a2359ec99042454e64d2c9f89cb2
+>>>>>>> a5841aa0c8605a8cc5c5a8dd6a5523a7982a33d2
 }
