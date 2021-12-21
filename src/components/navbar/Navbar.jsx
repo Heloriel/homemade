@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useState } from "react";
 import "../../App.scss";
@@ -18,20 +19,14 @@ export default (props) => {
 	return (
 		< >
 		<nav className={"Navbar"}>
-			<div className="col-6 Logo-Container p-0">
+			<div className="col-8 Logo-Container p-0">
 				<img src={Logo} alt="" className="Logo" />
 			</div>
-			<div className="col-6 Mobile-Nav-Toggle p-0">
+			<div className="col-4 Mobile-Nav-Toggle p-0">
 				<a href="#" onClick={toggleClass}>
 					{menuVisible ? <CgClose /> : <AiOutlineMenu />}
 				</a>
 			</div>
-			{/* <div className="col-3 p-0 Social-Links d-sm-none">
-					<a href="/"><FaLinkedin /></a>
-					<a href="/"><FaGithub /></a>
-					<a href="/"><FaDiscord /></a>
-					<a href="/"><SiGmail /></a>
-				</div>				 */}
 		</nav>
 		<div className={menuVisible ? "Mobile-Nav-Menu" : "Mobile-Nav-Menu-Closed"}>
 		<ul>
@@ -48,6 +43,14 @@ export default (props) => {
 			</li>
 			<li>
 				<a href="#contact">CONTATOS</a>
+			</li>
+			<li className="Social-Links-Menu">
+			<div className="Social-Links">
+					<a href="/"><FaLinkedin /></a>
+					<a href="/"><FaGithub /></a>
+					<a href="/"><FaDiscord /></a>
+					<a href="/"><SiGmail /></a>
+				</div>				
 			</li>
 		</ul>
 	</div>

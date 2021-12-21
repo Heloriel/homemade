@@ -1,0 +1,31 @@
+.Card{
+    background: #fff;
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid rgba(0,0,0,.6);
+    border-radius: 0.26rem;
+    background-clip: border-box;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 4px 5px 12px 0px rgba(0,0,0,0.26);
+    .Card-Image{
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+        width: 100%;
+        height: 200px;
+    }
+    .Card-Head{
+        padding: 1rem;
+        font-weight: bold;
+        color: #190431;
+        font-size: 1rem;
+    }
+    .Card-Body{
+        padding: 1rem 2rem;
+        text-align: justify;
+        color: #7e7e7e;
+    }
+}
+
