@@ -15,18 +15,21 @@ export default (props) => {
 	};
 
 	return (
-		< >
+		<>
 			<nav className={"Navbar"} id="navbar">
 				<div className="col-6 Logo-Container p-0">
 					<img src={Logo} alt="" className="Logo" />
 				</div>
-				<div className="col-6 Desktop-Nav d-large">
+				<div className="col-6 Desktop-Nav d-none d-medium">
 					<ul>
 						<li>
 							<a href="#start">INÍCIO</a>
 						</li>
 						<li>
 							<a href="#about">SOBRE</a>
+						</li>
+						<li>
+							<a href="#skills">SKILLS</a>
 						</li>
 						<li>
 							<a href="#projects">PROJETOS</a>
@@ -38,8 +41,8 @@ export default (props) => {
 				</div>
 
 				{/* MOBILE MENU TOGGLE */}
-				<div className="col-6 Mobile-Nav-Toggle p-0 d-mobile">
-					<a href="#" onClick={toggleClass}>
+				<div className="col-6 Mobile-Nav-Toggle p-0 d-none d-mobile">
+					<a role="button" onClick={toggleClass}>
 						{menuVisible ? <CgClose /> : <AiOutlineMenu />}
 					</a>
 				</div>
@@ -53,6 +56,9 @@ export default (props) => {
 					</li>
 					<li>
 						<a href="#projects">PROJETOS</a>
+					</li>
+					<li>
+						<a href="#skills">SKILLS</a>
 					</li>
 					<li>
 						<a href="#about">SOBRE</a>

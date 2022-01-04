@@ -5,10 +5,15 @@
           box-sizing: border-box;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: #0E1624;
+}
+
+div {
+  border: 1px solid red;
 }
 
 .Content {
@@ -105,6 +110,72 @@ body {
   padding: 15px;
 }
 
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+@media screen and (min-width: 992px) {
+  .d-large {
+    display: inline-block;
+  }
+  .d-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .d-large {
+    display: none;
+  }
+  .d-mobile {
+    display: inline-block;
+  }
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: .25rem;
+  display: inline-block;
+  width: 200px;
+  background-color: transparent;
+  margin-right: 8px;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.btn-blue {
+  background-color: #5CCFEE;
+  border-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-blue:hover {
+  background-color: #45b3d1;
+  border-color: #45b3d1;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue {
+  border-color: #5CCFEE;
+  color: #5CCFEE;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue:hover {
+  background-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
 .Navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,11 +183,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
   padding: 1rem;
+  position: fixed;
+  background-color: #0E1624;
+}
+
+.Navbar a {
+  font-size: .9em;
 }
 
 .Logo-Container {
@@ -126,69 +205,102 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  min-width: 165px;
 }
 
 .Logo-Container .Logo {
-  height: 25px;
-  max-height: 25px;
   width: auto;
+  max-height: 2rem;
+  min-height: 2rem;
 }
 
-.Mobile-Nav {
+.Mobile-Nav-Toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Mobile-Nav-Toggle a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  min-width: 165px;
   color: #fff;
-  height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 2rem;
 }
 
-.Nav-Links {
-  text-align: center;
+.Mobile-Nav-Menu-Closed {
+  height: 0px;
+  opacity: 0;
+  -webkit-transition: height 0.2s ease-out;
+  transition: height 0.2s ease-out;
+  overflow: hidden;
 }
 
-.Nav-Links li {
-  display: inline;
-  list-style: none;
+.Mobile-Nav-Menu {
+  background-color: #18253a;
+  position: relative;
+  top: 64px;
+  width: 100%;
+  padding: .5rem;
+  text-align: left;
+  height: 200px;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
 }
 
-.Nav-Links a {
-  padding: 1rem;
-  color: #fff;
-  margin-left: 10px;
-}
-
-.Social-Links {
+.Mobile-Nav-Menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
 }
 
-.Social-Links a {
+.Mobile-Nav-Menu ul li {
+  list-style-type: none;
+  width: 100%;
+  height: 2rem;
+}
+
+.Mobile-Nav-Menu ul li a {
   color: #fff;
-  font-size: 1.5rem;
-  margin-left: 5px;
+}
+
+.Desktop-Nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Desktop-Nav a {
+  color: #fff;
+}
+
+.Desktop-Nav li {
+  list-style-type: none;
+  padding: 0px 8px;
 }
 
 .Active {

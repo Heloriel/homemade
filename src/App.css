@@ -5,10 +5,15 @@
           box-sizing: border-box;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: #0E1624;
+}
+
+div {
+  border: 1px solid red;
 }
 
 .Content {
@@ -103,5 +108,71 @@ body {
 [class*="col-"] {
   float: left;
   padding: 15px;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+@media screen and (min-width: 992px) {
+  .d-large {
+    display: inline-block;
+  }
+  .d-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .d-large {
+    display: none;
+  }
+  .d-mobile {
+    display: inline-block;
+  }
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: .25rem;
+  display: inline-block;
+  width: 200px;
+  background-color: transparent;
+  margin-right: 8px;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.btn-blue {
+  background-color: #5CCFEE;
+  border-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-blue:hover {
+  background-color: #45b3d1;
+  border-color: #45b3d1;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue {
+  border-color: #5CCFEE;
+  color: #5CCFEE;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue:hover {
+  background-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
 }
 /*# sourceMappingURL=App.css.map */

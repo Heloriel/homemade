@@ -2,7 +2,7 @@
 import React from "react";
 import '../../App.scss';
 import './Projects.css';
-import Card from '../layouts/card/Card.jsx';
+import Card from '../card/Card.jsx';
 import Data from '../../data/projects.js';
 
 
@@ -10,7 +10,7 @@ export default (props) => {
     return (
         <div>
             <div className="row">
-                <p className="Title"><i>#Projects</i></p>
+                <p className="Title"><i>#Projetos</i></p>
             </div>
             <div className="row">
                 <Card title={Data[0].pName} image={Data[0].pImage}>

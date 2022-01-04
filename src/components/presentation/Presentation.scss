@@ -6,12 +6,12 @@
     max-width: 50%;
 }
 
-.Presentation-Container{
+.row .Presentation-Container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 6rem !important;
     height: 450px;
+    margin-top: 64px;
 }
 
 .Left{
@@ -46,13 +46,16 @@
 .Right{
     @include LeftRight();
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 2rem !important;
+    @media screen and (min-width: 720px) {
+        order: 2;
+    }
     .Presentation-Image{
-        min-height: 350px;
-        max-height: 350px;
-        min-width: 350px;
-        max-width: 350px;
+        min-height: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        max-width: 300px;
         background: #fff;
         border-radius: 999px;
         background-size: cover;

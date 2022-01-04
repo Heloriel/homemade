@@ -25,15 +25,16 @@
 }
 
 .Mobile-Nav-Toggle{
-    display: flex;
-    align-items: center;
     font-size: 2rem;
-    color: #fff;
-    -webkit-tap-highlight-color: transparent;
+    text-align: end;
     a{
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: .25rem;
         display: flex;
-        justify-content: flex-end;
-        color: #fff;
+        color: rgb(200, 200, 200);
+        width: fit-content;
+        float: right;
+        padding: 4px;
     }
 }
 
@@ -46,12 +47,12 @@
 
 .Mobile-Nav-Menu{
     background-color: $background_secondary;
-    position: relative;
-    top: 64px;
+    position: fixed;
+    top: 70px;
     width: 100%;
     padding: .5rem;
     text-align: left;
-    height: 200px;
+    // height: 200px;
     opacity: 1;
     transition: all 0.2s ease-out;
     overflow: hidden;

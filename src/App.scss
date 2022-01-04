@@ -16,6 +16,11 @@ body{
   background: $background;
 }
 
+
+div{
+  // border: 1px solid red;
+}
+
 .Content{
   width: 100%;
 }
@@ -49,6 +54,11 @@ body{
   padding: 0 !important;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -77,19 +87,23 @@ body{
 
 @media screen and (min-width: 992px) {
   .d-large{
-    display: inline-block;
-  }
-  .d-mobile{
-    display: none;
+    display: inline-block !important;
   }
 }
 
-@media screen and (max-width: 992px) {
-  .d-large{
-    display: none;
+@media screen and (min-width: 720px) {
+  .d-medium{
+    display: inline-block !important;
   }
+}
+
+@media screen and (max-width: 719px) {
   .d-mobile{
-    display: inline-block;
+    display: inline-block !important;
+  }
+  .col-sm{
+    min-width: 100%;
+    padding: 16px;
   }
 }
 

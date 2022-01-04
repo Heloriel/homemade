@@ -5,10 +5,15 @@
           box-sizing: border-box;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: #0E1624;
+}
+
+div {
+  border: 1px solid red;
 }
 
 .Content {
@@ -105,6 +110,86 @@ body {
   padding: 15px;
 }
 
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+@media screen and (min-width: 992px) {
+  .d-large {
+    display: inline-block;
+  }
+  .d-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .d-large {
+    display: none;
+  }
+  .d-mobile {
+    display: inline-block;
+  }
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: .25rem;
+  display: inline-block;
+  width: 200px;
+  background-color: transparent;
+  margin-right: 8px;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.btn-blue {
+  background-color: #5CCFEE;
+  border-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-blue:hover {
+  background-color: #45b3d1;
+  border-color: #45b3d1;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue {
+  border-color: #5CCFEE;
+  color: #5CCFEE;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.btn-outline-blue:hover {
+  background-color: #5CCFEE;
+  color: #0E1624;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
+}
+
+.Presentation-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6rem !important;
+  height: 450px;
+}
+
 .Left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,43 +205,58 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
-  max-height: 500px;
-  min-height: 380px;
+  min-height: 400px;
   min-width: 360px;
   max-width: 50%;
 }
 
 .Left .Presentation-Text {
-  text-align: left;
-  min-width: 360px;
-  max-width: 50%;
-  padding: 1rem;
+  width: 100%;
   color: white;
 }
 
-.Left .Presentation-Text .Slogan {
-  font-size: 4rem;
+.Left .Presentation-Text .Small-Intro {
+  font-size: 1.2rem;
+  font-weight: bold;
   color: #5CCFEE;
+  text-transform: uppercase;
 }
 
-.Left .Presentation-Text .Subtext {
+.Left .Presentation-Text .Main-Text {
+  font-size: 4em;
+}
+
+.Left .Presentation-Text .Sub-Text {
   margin: 2rem 0;
 }
 
+.Left .Presentation-Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
 .Right {
-  max-height: 500px;
-  min-height: 380px;
+  min-height: 400px;
   min-width: 360px;
   max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2rem !important;
 }
 
 .Right .Presentation-Image {
-  height: 100%;
+  min-height: 350px;
+  max-height: 350px;
+  min-width: 350px;
+  max-width: 350px;
+  background: #fff;
+  border-radius: 999px;
+  background-size: cover;
 }
 /*# sourceMappingURL=Presentation.css.map */
