@@ -11,13 +11,13 @@ import Footer from "./components/footer/Footer.jsx";
 export default (props) => {
     return (
         <div className="Content">
-            <section className="row m-0">
+            <section className="row m-0" id="start">
                 <Navbar />
             </section>
             <section className="row">
                 <Presentation />
             </section>
-            <hr className="Separator" />
+            <hr className="Separator" id="projects" />
             <section className="row">
                 <Projects />
             </section>

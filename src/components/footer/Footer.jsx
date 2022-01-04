@@ -11,10 +11,13 @@ export default (props) => {
 	return (
 		<footer>
 			<div className="row">
-				<div className="First">
+				<div className="First col-4">
 					<img src={Logo} alt="Logo" />
 				</div>
-				<div className="Middle">
+				<div className="Middle col-4">
+					<span className="eCopy">Scriplex Project &copy; { new Date().getFullYear() }</span>
+				</div>
+				<div className="Last col-4">
 					<a href="https://www.linkedin.com/in/matheus-andrade-ba2b16226/" rel="noreferrer" target="_blank" className="Social-Block">
 						<div className="Inner">
 							<FaLinkedinIn />
@@ -35,9 +38,6 @@ export default (props) => {
 							<SiGmail />
 						</div>
 					</a>
-				</div>
-				<div className="Last">
-					<span className="eCopy">Scriplex Project &copy; 2021</span>
 				</div>
 			</div>
 		</footer>

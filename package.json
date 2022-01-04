@@ -39,5 +39,9 @@
   },
   "devDependencies": {
     "sass": "^1.45.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Heloriel/homemade.git",
+  "author": "heloriel <andradematheus.dev@gmail.com>",
+  "license": "MIT"
 }

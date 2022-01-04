@@ -1,22 +1,29 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import Presentation from '../../assets/img/Presentation.svg';
+import Presentation from '../../assets/img/profile_pic.jpg';
 import "../../App.scss";
 import './Presentation.scss';
+import { FaReact } from 'react-icons/fa';
 
 export default (props) => {
     return(
-        <div className="row">
-            <div className="col-6 Left">
+        <div className="row Presentation-Container">
+            <div className="col-2"></div>
+            <div className="col-4 Left">
                 <div className="Presentation-Text">
-                    <h1 className="Slogan">BRING IT TO THE NEXT LEVEL!</h1>
-                    <h1 className="Subtext">Welcome to my portfolio page!</h1>
-                    <p className="Subtext">Here i will show you some of my works as a developer!</p>                    
+                    <p className="Small-Intro">Olá Mundo!</p>
+                    <h1 className="Main-Text">Bem vindo ao meu portfólio.</h1>
+                    <p className="Sub-Text">Me chamo Matheus e aqui eu vou apresentar um pouco do meu trabalho como desenvolvedor.</p>
+                    <div className="Presentation-Buttons">
+                        <a href="https://github.com/Heloriel" className="btn btn-blue" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/matheus-andrade-ba2b16226/" target="_blank" className="btn btn-outline-blue" rel="noreferrer">LinkedIn</a>
+                        </div>                   
                 </div>
             </div>
-            <div className="col-6 Right">
-                <img src={Presentation} alt="Presentation Mockup" className="Presentation-Image" />
+            <div className="col-4 Right">
+                <div style={{backgroundImage: `url(${Presentation})`}} alt="Presentation Mockup" className="Presentation-Image" ></div>
             </div>
+            <div className="col-2"></div>
         </div>
     );
 }
