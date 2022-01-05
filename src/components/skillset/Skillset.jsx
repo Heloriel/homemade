@@ -8,11 +8,10 @@ export default (props) => {
 		<>
 			<div className="row">
 				<p className="Title">
-					<i>#Skillset</i>
+					<i>#Minhas Stacks</i>
 				</p>
 			</div>
-            <div className="col-2"></div>
-			<div className="row Skillset-Container p-0 col-8">
+			<div className="row Skillset-Container p-0">
 				<div className="First">
 					<p>Conhecimento em:</p>
 					<div className="Skillset">
@@ -42,7 +41,6 @@ export default (props) => {
 					</div>
 				</div>
 			</div>
-            <div className="col-2"></div>
 		</>
 	);
 };

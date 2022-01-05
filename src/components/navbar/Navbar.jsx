@@ -29,7 +29,7 @@ export default (props) => {
 							<a href="#about">SOBRE</a>
 						</li>
 						<li>
-							<a href="#skills">SKILLS</a>
+							<a href="#skills">STACKS</a>
 						</li>
 						<li>
 							<a href="#projects">PROJETOS</a>
@@ -58,13 +58,13 @@ export default (props) => {
 						<a href="#projects">PROJETOS</a>
 					</li>
 					<li>
-						<a href="#skills">SKILLS</a>
+						<a href="#skills">STACKS</a>
 					</li>
 					<li>
 						<a href="#about">SOBRE</a>
 					</li>
 					<li>
-						<a href="#contact">CONTATOS</a>
+						<a href="#contact" className="last">CONTATOS</a>
 					</li>
 				</ul>
 			</div>

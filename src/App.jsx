@@ -18,7 +18,7 @@ export default (props) => {
             <section className="row">
                 <Presentation />
             </section>
-            <hr className="Separator" id="projects" />
+            <hr className="Separator" id="skills" />
             <section className="row">
                 <Skillset />   
             </section>
