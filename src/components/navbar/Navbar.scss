@@ -71,6 +71,10 @@
             a{
                 color: #fff;
             }
+            &:last-child{
+                border: 0 !important;
+                margin-bottom: 0 !important;
+            }
         }
     }
 }
