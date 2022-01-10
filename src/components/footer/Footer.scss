@@ -30,6 +30,7 @@ footer {
 	align-items: center;
 	background: rgb(50, 50, 50);
 	margin: 5px;
+	border-radius: 100%;
 }
 
 .Social-Block::before {
@@ -39,6 +40,7 @@ footer {
 	height: 150%;
 	position: absolute;
 	animation: rotate 2s linear infinite;
+	border-radius: 100%;
 }
 
 .Inner {
@@ -52,6 +54,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 100%
 }
 
 @keyframes rotate {

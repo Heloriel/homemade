@@ -1,13 +1,13 @@
 .Card{
-    background: #fff;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
     min-width: 300px;
     max-width: 300px;
-    border: 1px solid rgba(0,0,0,.6);
-    border-radius: 0.26rem;
+    border-radius: 0.5rem;
     background-clip: border-box;
     overflow: hidden;
     margin: 10px;
-    box-shadow: 4px 5px 12px 0px rgba(0,0,0,0.26);
     .Card-Image{
         background-position: center;
         background-size: cover;
@@ -23,9 +23,17 @@
         font-size: 1rem;
     }
     .Card-Body{
-        padding: 1rem 2rem;
+        padding: 1rem;
         text-align: justify;
         color: #7e7e7e;
+        flex: 1;
+    }
+    .Card-Footer{
+        display: block;
+        width: 100%;
+        .Footer-Title{
+            font-weight: bold;
+        }
     }
 }
 

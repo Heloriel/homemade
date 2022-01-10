@@ -9,16 +9,36 @@ $accent_dark: #3b6dca;
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+}
+
+html{
   scroll-behavior: smooth;
+}
+
+:target:not(:first-child) {
+  display: block;
+  position: relative;
+  top: -60px; 
+  visibility: hidden;
 }
 
 body{
   background: $background;
 }
 
-
-div{
-  // border: 1px solid red;
+.Section-Marker{
+  visibility: hidden !important;
+  display: block;
+  height: 1px;
+  width: 1px;
+  position: relative;
+  top: -1px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  &:first-child{
+    position: absolute;
+  }
 }
 
 .Content{
@@ -50,9 +70,12 @@ div{
   margin: 0 !important;
 }
 
-.p-0{
-  padding: 0 !important;
-}
+.p-0{ padding: 0 !important; }
+.p-1{ padding: 2px; }
+.p-2{ padding: 4px;}
+.p-3{ padding: 8px;}
+.p-4{ padding: 12px;}
+.p-5{ padding: 16px;}
 
 .mx-auto{
   margin-left: auto;
@@ -76,6 +99,7 @@ div{
   float: left;
   padding: 15px;
 }
+
 .d-none{
   display: none !important;
 }
@@ -138,4 +162,17 @@ div{
     color: $background;
     transition: ease .2s;
   }
+}
+
+.Title{
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
 }

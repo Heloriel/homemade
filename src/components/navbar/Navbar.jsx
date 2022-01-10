@@ -22,19 +22,19 @@ export default (props) => {
 				</div>
 				<div className="col-6 Desktop-Nav d-none d-medium">
 					<ul>
-						<li>
-							<a href="#start">INÍCIO</a>
+						<li key="dNav1">
+							<a role="button" href="#start" id="nav-start">INÍCIO</a>
 						</li>
-						<li>
-							<a href="#about">SOBRE</a>
+						<li key="dNav2">
+							<a role="button" href="#about" id="nav-about">SOBRE</a>
 						</li>
-						<li>
-							<a href="#skills">STACKS</a>
+						<li key="dNav3">
+							<a role="button" href="#skills" id="nav-skills">STACKS</a>
 						</li>
-						<li>
-							<a href="#projects">PROJETOS</a>
+						<li key="dNav4">
+							<a role="button" href="#projects" id="nav-projects">PROJETOS</a>
 						</li>
-						<li>
+						<li key="dNav5" title="Enviar E-Mail">
 							<a href="mailto:andradematheus.dev@gmail.com">CONTATO</a>
 						</li>
 					</ul>
@@ -51,20 +51,20 @@ export default (props) => {
 			{/* MOBILE MENU */}
 			<div className={menuVisible ? "Mobile-Nav-Menu" : "Mobile-Nav-Menu-Closed"}>
 				<ul>
-					<li>
-						<a href="#start">INÍCIO</a>
+					<li key="mNav1">
+						<a role="button" href="#start" onClick={() => toggleMenu(false)}>INÍCIO</a>
 					</li>
-					<li>
-						<a href="#about">SOBRE</a>
+					<li key="mNav2">
+						<a role="button" href="#about" onClick={() => toggleMenu(false)}>SOBRE</a>
+					</li >
+					<li key="mNav3">
+						<a role="button" href="#skills" onClick={() => toggleMenu(false)}>STACKS</a>
 					</li>
-					<li>
-						<a href="#skills">STACKS</a>
+					<li key="mNav4">
+						<a role="button" href="#projects" onClick={() => toggleMenu(false)}>PROJETOS</a>
 					</li>
-					<li>
-						<a href="#projects">PROJETOS</a>
-					</li>
-					<li>
-						<a href="mailto:andradematheus.dev@gmail.com">CONTATO</a>
+					<li key="mNav5" title="Enviar E-Mail">
+						<a href="mailto:andradematheus.dev@gmail.com" onClick={() => toggleMenu(false)}>CONTATO</a>
 					</li>
 				</ul>
 			</div>
