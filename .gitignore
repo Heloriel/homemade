@@ -10,6 +10,7 @@
 
 # production
 /build
+.env
 
 # misc
 .DS_Store
@@ -25,4 +26,4 @@ yarn-error.log*
 .eslintrc.json
 
 # custom
-.references
+.reference
