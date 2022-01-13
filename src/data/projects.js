@@ -41,5 +41,25 @@ export default [
                 imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg",
             }
         } 
+    },
+    {
+        id: 2,
+        pName: 'Scriplex',
+        pImage: imgPath + 'scriplex.jpg',
+        desc: 'Esse é meu site portfólio que você esta acessando no momento.',
+        repo: 'homemade',
+        stack:
+        {
+            stk1:
+            {
+                name: "React",
+                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+            },
+            stk2:
+            {
+                name: "Sass",
+                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+            }
+        } 
     }
 ]
