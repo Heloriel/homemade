@@ -5,13 +5,14 @@ import "./Skillset.scss";
 import experience from "../../data/experience";
 import learning from "../../data/learning";
 import interest from "../../data/interest";
+import Stack from "./Stack/Stack.jsx";
 
 export default (props) => {
 
 	function getSkills(skill) {
 		return skill.map( skill => {
 			return(
-				<img title={skill.name} alt={skill.name} height="30" width="40" src={skill.img} />
+				<Stack img={skill.img} name={skill.name} />
 			);
 		});
 	}

@@ -8,10 +8,10 @@
 	.Last {
 		display: flex;
 		flex-direction: column;
-		border: 1px solid $accent_light;
+		// border: 1px solid $accent_light;
 		margin: 0 8px;
 		padding: 8px;
-		border-radius: 0.5rem;
+		// border-radius: 0.5rem;
 		min-width: 360px;
 		@media screen and (max-width: 1178px) {
 			width: 90%;
@@ -23,8 +23,12 @@
 		text-align: center;
 		padding: 4px 0;
 	}
+	.First{
+		width: 100%;
+	}
 	.Skillset {
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		height: 100%;
 		align-items: center;
