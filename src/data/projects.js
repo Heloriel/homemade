@@ -13,12 +13,12 @@ export default [
             stk1:
             {
                 name: "ElectronJS",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg",
+                imgUrl: "./images/stacks/electron-original.svg",
             },
             stk2:
             {
                 name: "Sass",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+                imgUrl: "./images/stacks/sass-original.svg",
             }
         }      
     },
@@ -33,12 +33,12 @@ export default [
             stk1:
             {
                 name: "Laravel 8",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg",
+                imgUrl: "./images/stacks//laravel-plain.svg",
             },
             stk2:
             {
                 name: "Bootstrap",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg",
+                imgUrl: "./images/stacks/bootstrap-plain.svg",
             }
         } 
     },
@@ -53,12 +53,12 @@ export default [
             stk1:
             {
                 name: "React",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+                imgUrl: "./images/stacks/react-original.svg",
             },
             stk2:
             {
                 name: "Sass",
-                imgUrl: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+                imgUrl: "./images/stacks/sass-original.svg",
             }
         } 
     }
