@@ -15,7 +15,7 @@ export default (props) => {
                 <span className="About-Text p-5">
                     <p>Tenho 26 Anos, sou estudante de programação e estou cursando a faculdade de <i>"Sistemas para Internet"</i>.</p>
                     <br />
-                    <p>Atualmente trabalho como Designer Gráfico e já tenho experiência com desenvolvimento Front-end e Back-end.</p>
+                    <p>Atualmente trabalho como Designer Gráfico e já tenho experiência com desenvolvimento web.</p>
                 </span>
             </div>
 		</>

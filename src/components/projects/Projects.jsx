@@ -29,7 +29,7 @@ export default (props) => {
     return (
         <div>
             <div className="row">
-                <p className="Title"><i>#Projetos</i></p>
+                <p className="Title"><i>#Projetos não comerciais</i></p>
             </div>
             <div className="row">
                { getProjects() }

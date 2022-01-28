@@ -6,7 +6,7 @@ export default [
         id: 1,
         pName: 'Topaz - Notepad Extended',
         pImage: imgPath + 'topaz.jpg',
-        desc: 'Pequeno protótipo de bloco de notas com recursos extras desenvolvido em Electron.',
+        desc: 'Pequeno protótipo de bloco de notas com recursos extras desenvolvido com Electron.',
         repo: 'topaz-notepad-extended',
         stack:
         {
@@ -26,7 +26,7 @@ export default [
         id: 2,
         pName: 'Amethyst - Gestão de Licitações',
         pImage: imgPath + 'amethyst.jpg',
-        desc: 'Protótipo de aplicação para gestão de licitações públicas, desenvolvido em Laravel.',
+        desc: 'Protótipo de aplicação para gestão de licitações públicas, desenvolvido com Laravel.',
         repo: 'Amethyst',
         stack:
         {
