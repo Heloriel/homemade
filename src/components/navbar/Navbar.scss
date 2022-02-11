@@ -67,7 +67,7 @@
             width: 100%;
             height: 2rem;
             margin: 8px 0;
-            border-bottom: 1px solid rgb(60, 60, 60);      
+            border-bottom: 1px solid rgb(60, 60, 60);    
             a{
                 color: #fff;
             }
@@ -79,12 +79,17 @@
     }
 }
 
+.btn-contact{
+    border-radius: 100px !important;
+}  
+
 .Desktop-Nav{
     ul{
         display: flex;
         width: 100%;
         height: 100%;
         justify-content: flex-end;
+        align-items: center;
     }
     a{
         color: #fff;

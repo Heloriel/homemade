@@ -35,7 +35,7 @@ export default (props) => {
 							<a role="button" href="#projects" id="nav-projects">PROJETOS</a>
 						</li>
 						<li key="dNav5" title="Enviar E-Mail">
-							<a href="mailto:andradematheus.dev@gmail.com">CONTATO</a>
+							<a href="mailto:andradematheus.dev@gmail.com" className="btn btn-blue btn-contact">CONTATO</a>
 						</li>
 					</ul>
 				</div>
