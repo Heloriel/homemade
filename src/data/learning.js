@@ -16,8 +16,13 @@ export default [
         img: "./images/stacks/electron-original.svg",
     },
     {
-		id: 7,
+		id: 4,
 		name: "Laravel 8",
 		img: "./images/stacks/laravel-plain.svg",
 	},
+    {
+        id: 5,
+        name: "TypeScript",
+        img: "./images/stacks/typescript-plain.svg",
+    },
 ];
