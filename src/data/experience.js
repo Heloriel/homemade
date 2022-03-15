@@ -30,4 +30,30 @@ export default [
 		name: "Python",
 		img: "./images/stacks/python-plain.svg",
 	},
+	{
+		id: 7,
+        name: "NextJS",
+        img: "./images/stacks/nextjs-line.svg",
+	},
+	{
+        id: 8,
+        name: "ReactJS",
+        img: "./images/stacks/react-original.svg",
+    },
+    {
+        id: 9,
+        name: "Sass",
+        img: "./images/stacks/sass-original.svg",
+    },
+    {
+		id: 10,
+		name: "Laravel 8",
+		img: "./images/stacks/laravel-plain.svg",
+	},
+    {
+        id: 11,
+        name: "TypeScript",
+        img: "./images/stacks/typescript-plain.svg",
+    },
+	
 ];

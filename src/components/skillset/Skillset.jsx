@@ -25,16 +25,7 @@ export default (props) => {
 			</div>
 			<div className="row Skillset-Container p-0">
 				<div className="First">
-					<p>Possuo experiência com:</p>
 					<div className="Skillset">{getSkills(experience)}</div>
-				</div>
-				<div className="Middle">
-					<p>Estou estudando:</p>
-					<div className="Skillset">{getSkills(learning)}</div>
-				</div>
-				<div className="Last">
-					<p>Tenho interesse em aprender:</p>
-					<div className="Skillset">{getSkills(interest)}</div>
 				</div>
 			</div>
 			<div className="row">
