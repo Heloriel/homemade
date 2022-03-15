@@ -18,7 +18,7 @@ export default (props) => {
 		<>
 			<div className="row">
 				<p className="Title">
-					<i>#Habilidades</i>
+					<i>#Conhecimento</i>
 				</p>
 			</div>
 			<div className="row Skillset-Container p-0">
