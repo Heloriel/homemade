@@ -18,13 +18,11 @@ export default (props) => {
 		<>
 			<div className="row">
 				<p className="Title">
-					<i>#Conhecimento</i>
+					<i>#Conhecimentos</i>
 				</p>
 			</div>
 			<div className="row Skillset-Container p-0">
-				<div className="First">
 					<div className="Skillset">{getSkills(experience)}</div>
-				</div>
 			</div>
 			<div className="row">
 				<div className="SB-Container">

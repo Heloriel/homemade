@@ -3,7 +3,12 @@
 .Skillset-Container {
 	display: flex;
 	justify-content: center;
-	max-width: 75%;
+	@media screen and (min-width: 720px) {
+	max-width: 60%;
+    }
+	@media screen and (max-width: 720px) {
+	max-width: 100%;
+	}
 	.First,
 	.Middle,
 	.Last {
@@ -34,6 +39,6 @@
 		height: 100%;
 		align-items: center;
 		padding: 8px;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 }

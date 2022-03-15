@@ -47,9 +47,9 @@
     display: flex;
     justify-content: center;
     padding: 2rem !important;
-    @media screen and (min-width: 720px) {
-        order: 2;
-    }
+    // @media screen and (min-width: 720px) {
+    //     order: 2;
+    // }
     .Presentation-Image{
         min-height: 300px;
         max-height: 300px;

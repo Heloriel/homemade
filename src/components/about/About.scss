@@ -2,7 +2,13 @@
 
 .About-Text {
 	color: #fff;
-	text-align: center;
+	text-align: justify;
+	@media screen and (min-width: 720px) {
+		max-width: 60%;
+		}
+		@media screen and (max-width: 720px) {
+		max-width: 100%;
+		}
 	i {
 		font-weight: bold;
 	}
