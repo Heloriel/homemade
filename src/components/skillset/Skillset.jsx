@@ -3,8 +3,6 @@ import React from "react";
 import "./../../App.scss";
 import "./Skillset.scss";
 import experience from "../../data/experience";
-import learning from "../../data/learning";
-import interest from "../../data/interest";
 import hability from "../../data/hability";
 import Stack from "./Stack/Stack.jsx";
 import SkillBar from "../skillbar/Skillbar.jsx";
