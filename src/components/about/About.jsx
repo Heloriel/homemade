@@ -17,7 +17,7 @@ export default (props) => {
             Tenho 26 Anos, sou estudante de programação e estou cursando a faculdade de <i>"Sistemas para Internet"</i>.
           </p>
           <br />
-          <p>Em 2014 tive a experiência de 1 ano em meu primeiro emprego como desenvolvedor full stack com php, hoje meu foco e minha paixão é por desenvolvimento front-end com JavaScript, React e seu vasto ecossistema.</p>
+          <p>Em 2013 tive a experiência de 1 ano em meu primeiro emprego como desenvolvedor full stack com php, hoje meu foco e minha paixão é por desenvolvimento front-end com JavaScript, React e seu vasto ecossistema.</p>
           <br />
           <p>Atualmente trabalho como Designer Gráfico.</p>
         </span>
