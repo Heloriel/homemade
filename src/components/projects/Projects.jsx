@@ -19,7 +19,7 @@ export default (props) => {
             };
 
             return(
-                <Card title={proj.pName} image={proj.pImage} url={proj.repo} fTitle="Stacks Utilizadas:" footer={stackArray}>
+                <Card title={proj.pName} image={proj.pImage} url={proj.repo} fTitle="Tecnologias Utilizadas:" footer={stackArray}>
                     {proj.desc}
                 </Card>
             );

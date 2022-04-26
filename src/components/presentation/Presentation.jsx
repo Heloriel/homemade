@@ -13,8 +13,8 @@ export default (props) => {
             <div className="col-5 col-sm Left">
                 <div className="Presentation-Text">
                     <p className="Small-Intro">Olá Mundo!</p>
-                    <h1 className="Main-Text">Bem vindo ao meu portfólio.</h1>
-                    <p className="Sub-Text">Me chamo Matheus e aqui vou apresentar um pouco do meu trabalho como desenvolvedor.</p>
+                    <h1 className="Main-Text">Bem vindo ao meu espaço.</h1>
+                    <p className="Sub-Text">Me chamo Matheus e aqui vou falar um pouco sobre mim.</p>
                     <div className="Presentation-Buttons">
                         <a href="https://github.com/Heloriel" className="btn btn-blue" target="_blank" rel="noreferrer">GitHub</a>
                         <a href="https://www.linkedin.com/in/matheus-andrade-ba2b16226/" target="_blank" className="btn btn-outline-blue" rel="noreferrer">LinkedIn</a>

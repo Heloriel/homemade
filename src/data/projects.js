@@ -4,9 +4,9 @@ const imgPath = './images/project_images/';
 export default [
     {
         id: 1,
-        pName: 'Topaz - Notepad Extended',
+        pName: 'Topaz',
         pImage: imgPath + 'topaz.jpg',
-        desc: 'Pequeno protótipo de bloco de notas com recursos extras desenvolvido com Electron.',
+        desc: 'Bloco de notas com recursos extras criado do 0 com Electron.',
         repo: 'topaz-notepad-extended',
         stack:
         {
@@ -24,9 +24,9 @@ export default [
     },
     {
         id: 2,
-        pName: 'Amethyst - Gestão de Licitações',
+        pName: 'Amethyst',
         pImage: imgPath + 'amethyst.jpg',
-        desc: 'Protótipo de aplicação para gestão de licitações públicas, desenvolvido com Laravel.',
+        desc: 'Protótipo de aplicação para gestão de participação da empresa em licitações públicas, desenvolvido com Laravel para estudo do framework.',
         repo: 'Amethyst',
         stack:
         {
@@ -44,7 +44,7 @@ export default [
     },
     {
         id: 2,
-        pName: 'Scriplex',
+        pName: 'Meu Portfólio',
         pImage: imgPath + 'scriplex.jpg',
         desc: 'Esse é meu site portfólio que você esta acessando no momento.',
         repo: 'homemade',

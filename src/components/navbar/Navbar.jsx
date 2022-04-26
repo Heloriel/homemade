@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import "../../App.scss";
 import "./Navbar.scss";
-import Logo from "../../assets/img/Logo.svg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { CgClose } from "react-icons/cg";
 
@@ -18,7 +17,7 @@ export default (props) => {
 		<>
 			<nav className={"Navbar"} id="navbar">
 				<div className="col-6 Logo-Container p-0">
-					<img src={Logo} alt="" className="Logo" />
+					{/* <span className="Logo" title="Imagine aqui uma logo maneira.">&#60;Logo Maneira /&#62;</span> */}
 				</div>
 				<div className="col-6 Desktop-Nav d-none d-medium">
 					<ul>

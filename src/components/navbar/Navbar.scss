@@ -18,9 +18,12 @@
     display: flex;
     justify-content: flex-start;
     .Logo{
-        width: auto;
-        max-height: 2rem;
-        min-height: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $accent_light;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
 
