@@ -17,7 +17,7 @@ export default (props) => {
 		<>
 			<nav className={"Navbar"} id="navbar">
 				<div className="col-6 Logo-Container p-0">
-					{/* <span className="Logo" title="Imagine aqui uma logo maneira.">&#60;Logo Maneira /&#62;</span> */}
+					<span className="Logo" title="Imagine aqui uma logo maneira.">&#60;MeuPortfólio /&#62;</span>
 				</div>
 				<div className="col-6 Desktop-Nav d-none d-medium">
 					<ul>

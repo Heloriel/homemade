@@ -12,7 +12,7 @@ export default (props) => {
 		<footer>
 			<div className="row">
 				<div className="Middle text-start col-6">
-					<span className="eCopy">&copy; { new Date().getFullYear() }</span>
+					<span className="eCopy">Scriplex &copy; { new Date().getFullYear() }</span>
 				</div>
 				<div className="Last text-end col-6">
 					<a href="https://www.linkedin.com/in/matheus-andrade-ba2b16226/" rel="noreferrer" target="_blank" className="Social-Block">

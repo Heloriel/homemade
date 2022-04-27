@@ -44,7 +44,7 @@ export default [
     },
     {
         id: 2,
-        pName: 'Meu Portfólio',
+        pName: 'Meu Site',
         pImage: imgPath + 'scriplex.jpg',
         desc: 'Esse é meu site portfólio que você esta acessando no momento.',
         repo: 'homemade',

@@ -21,13 +21,13 @@
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: $background_tertiary;
+        background-color: $background;
         transition: .2s ease;       
         &:hover{
             background-size: 40%;
             background-repeat: no-repeat;
             background-position: center;
-            background-color: $background_tertiary;
+            background-color: $background;
             transition: .2s ease;
             &:hover + .Stack-Name, &:active .Stack-Name{
                 visibility: visible;

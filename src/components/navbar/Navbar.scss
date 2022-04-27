@@ -6,9 +6,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    padding: 1rem;
+    padding: .3rem 1rem;
     position: fixed;
-    background-color: $background;
+    background-color: $background_secondary;
+    border-bottom: 1px solid grey;
     a{
         font-size: .9em;
     }
@@ -18,7 +19,7 @@
     display: flex;
     justify-content: flex-start;
     .Logo{
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: $accent_light;
         &:hover{
@@ -31,7 +32,6 @@
     font-size: 2rem;
     text-align: end;
     a{
-        border: 1px solid rgb(200, 200, 200);
         border-radius: .25rem;
         display: flex;
         color: rgb(200, 200, 200);
@@ -51,7 +51,7 @@
 .Mobile-Nav-Menu{
     background-color: $background_secondary;
     position: fixed;
-    top: 70px;
+    top: 44px;
     width: 100%;
     padding: .5rem;
     text-align: left;
@@ -87,6 +87,7 @@
 }  
 
 .Desktop-Nav{
+    padding: 0 !important;
     ul{
         display: flex;
         width: 100%;
