@@ -19,7 +19,7 @@ export default (props) => {
           <br />
           <p>Em 2013 tive a experiência de 1 ano em meu primeiro emprego como desenvolvedor full stack com php.</p>
           <br />
-          <p>Em 2015 comecei a trabalhar como Designer Gráfico por quase 7 anos e agora sou Técnico em TI dentro da mesma empresa.</p>
+          <p>Em 2015 comecei a trabalhar como Designer Gráfico por quase 7 anos e agora dentro da mesma empresa recebi o cargo de programador de sistemas de informação.</p>
           <br />
           <p>Atualmente meu foco e minha paixão é por desenvolvimento front-end com JavaScript, React e seu vasto ecossistema.</p>
         </span>
