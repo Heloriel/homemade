@@ -14,7 +14,7 @@ export default (props) => {
       <div className="row">
         <span className="About-Text p-5">
           <p>
-            Tenho 27 Anos, sou estudante de programação e estou cursando a faculdade de <i>"Sistemas para Internet"</i>.
+            Tenho 27 Anos, sou estudante de programação e estou me graduando em <i>Sistemas para Internet</i>.
           </p>
           <br />
           <p>Em 2013 tive a experiência de 1 ano em meu primeiro emprego como desenvolvedor full stack com php.</p>
