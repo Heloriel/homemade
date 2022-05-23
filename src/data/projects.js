@@ -6,7 +6,7 @@ export default [
         id: 1,
         pName: 'Topaz',
         pImage: imgPath + 'topaz.jpg',
-        desc: 'Bloco de notas com recursos extras criado do 0 com Electron.',
+        desc: 'Bloco de notas com recursos extras feito com Electron.',
         repo: 'topaz-notepad-extended',
         stack:
         {
